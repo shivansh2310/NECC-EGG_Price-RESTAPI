@@ -1,0 +1,3 @@
+# Example daily refresh at 09:00.
+# Replace the paths with your project path and Python executable.
+0 9 * * * cd /absolute/path/to/egg_api && /absolute/path/to/egg_api/.venv/bin/python scraper.py --output necc_egg_prices_daily.csv >> logs/cron.log 2>&1
