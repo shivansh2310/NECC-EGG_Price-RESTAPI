@@ -176,3 +176,46 @@ MIT License
 Data is sourced from the National Egg Coordination Committee website:
 
 https://www.e2necc.com/home/eggprice
+
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    subgraph Scheduler
+        CRON[Cron job]
+    end
+
+    subgraph Data_Pipeline
+        SCRAPER[scraper.py<br/>requests + BeautifulSoup]
+        HTML_CACHE[(raw_html/<br/>monthly HTML cache)]
+        CSV[(necc_egg_prices_daily.csv)]
+    end
+
+    subgraph API_Server
+        FASTAPI[api.py<br/>FastAPI]
+        HEALTH[/health endpoint/]
+        DOCS[/docs Swagger UI/]
+    end
+
+    subgraph Clients
+        DASHBOARD[Dashboards<br/>Streamlit / Power BI / Tableau]
+        ANALYST[Analysis<br/>Python / R / Excel]
+        APP[Web or mobile apps]
+    end
+
+    WEBSITE[(NECC website)]
+
+    CRON -->|Daily refresh| SCRAPER
+    SCRAPER -->|POST month/year form| WEBSITE
+    WEBSITE -->|HTML price table| SCRAPER
+    SCRAPER -->|Archive source pages| HTML_CACHE
+    SCRAPER -->|Parse, clean, fill| CSV
+
+    FASTAPI -->|Load at startup| CSV
+    FASTAPI --> HEALTH
+    FASTAPI --> DOCS
+
+    DASHBOARD -->|REST queries| FASTAPI
+    ANALYST -->|REST queries| FASTAPI
+    APP -->|REST queries| FASTAPI
+```
