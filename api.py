@@ -6,7 +6,8 @@ import pandas as pd
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-CSV_PATH = Path("necc_egg_prices_daily.csv")
+# Resolve beside this module so the API works regardless of the process cwd.
+CSV_PATH = Path(__file__).resolve().with_name("necc_egg_prices_daily.csv")
 REQUIRED_COLUMNS = {
     "date",
     "market",
