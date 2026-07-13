@@ -15,7 +15,8 @@ env/
 .env.*
 
 # Generated data and runtime output
-necc_egg_prices_daily.csv
+# The consolidated deployment snapshot is intentionally versioned. Runtime
+# refreshes remain ephemeral on free hosts; update and commit it deliberately.
 raw_html/
 logs/
 

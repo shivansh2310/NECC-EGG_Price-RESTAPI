@@ -15,7 +15,8 @@ from fastapi.middleware.cors import CORSMiddleware
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-CSV_PATH = Path("necc_egg_prices_daily.csv")
+# Resolve beside this module so the API works regardless of the process cwd.
+CSV_PATH = Path(__file__).resolve().with_name("necc_egg_prices_daily.csv")
 REQUIRED_COLUMNS = {
     "date",
     "market",
