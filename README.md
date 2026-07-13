@@ -17,6 +17,8 @@ The project has two parts:
 - Provides filterable REST endpoints by date, market, category, and pagination.
 - Includes CORS support for dashboard clients.
 - Includes a health endpoint for deployment checks.
+- Built-in daily scheduler — automatically refreshes data from the NECC website (no cron needed).
+- Manual refresh endpoint (`POST /admin/refresh`) for on-demand updates.
 
 ## Project Structure
 
@@ -53,7 +55,7 @@ If you prefer not to activate the environment, run commands with `.venv/bin/pyth
 
 ## Generate the Dataset
 
-Run the scraper:
+The API runs the scraper automatically on startup if the CSV is missing. You can also run it manually:
 
 ```bash
 .venv/bin/python scraper.py \
@@ -88,25 +90,32 @@ Start the server:
 .venv/bin/uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
 
+On first run, if `necc_egg_prices_daily.csv` does not exist, the API will automatically run the scraper to generate the full dataset before serving requests.
+
+The API refreshes data daily at 09:00 by default. Override the schedule with the `REFRESH_TIME` environment variable:
+
+```bash
+REFRESH_TIME=06:00 .venv/bin/uvicorn api:app --host 0.0.0.0 --port 8000
+```
+
 Open the interactive API docs:
 
 ```text
 http://localhost:8000/docs
 ```
 
-The API expects `necc_egg_prices_daily.csv` to exist in the project root. Run `scraper.py` first if the file is missing.
-
 ## Endpoints
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
 | GET | `/` | Basic service information |
-| GET | `/health` | API health and dataset row/date summary |
+| GET | `/health` | API health, dataset summary, and refresh schedule |
 | GET | `/prices` | Paginated price records with optional filters |
 | GET | `/prices/date-range` | Earliest and latest available dates |
 | GET | `/prices/markets` | Available market names |
 | GET | `/prices/categories` | Available categories |
 | GET | `/prices/stats` | Mean, min, max, and count by market/category |
+| POST | `/admin/refresh` | Trigger an immediate data refresh from the NECC website |
 
 Example:
 
@@ -120,24 +129,22 @@ Use filled prices:
 curl "http://localhost:8000/prices?market=Delhi&category=NECC&use_filled=true&limit=10"
 ```
 
-## Schedule with Cron
+## Automatic Daily Refresh
 
-Create the log directory:
+The API includes a built-in scheduler that runs the scraper once per day at the configured time. No cron job is required.
 
-```bash
-mkdir -p logs
-```
+- **Default schedule:** 09:00 daily
+- **Configure:** Set the `REFRESH_TIME` environment variable (format `HH:MM`)
+- **Manual trigger:** `POST /admin/refresh`
 
-Edit your crontab:
+The scheduler logs refresh activity to stdout. The `/health` endpoint reports `last_refreshed` and `next_refresh` times.
 
-```bash
-crontab -e
-```
+### Alternative: Cron
 
-Add an entry like this, replacing the paths:
+If you prefer to manage scheduling externally, you can disable the built-in scheduler by not starting uvicorn (not recommended for simple deployments). Alternatively, use cron to run the scraper separately and call the manual refresh endpoint:
 
 ```bash
-0 9 * * * cd /absolute/path/to/egg_api && /absolute/path/to/egg_api/.venv/bin/python scraper.py --output necc_egg_prices_daily.csv >> logs/cron.log 2>&1
+0 9 * * * cd /absolute/path/to/egg_api && /absolute/path/to/egg_api/.venv/bin/python scraper.py --output necc_egg_prices_daily.csv && curl -X POST http://localhost:8000/admin/refresh >> logs/cron.log 2>&1
 ```
 
 `cron_setup.txt` contains the same example for quick copying.
@@ -162,8 +169,7 @@ Then run:
 Recommended additions:
 
 - Run behind Nginx or Caddy with HTTPS.
-- Manage the API with systemd.
-- Keep the scraper on cron or another scheduler.
+- Manage the API with systemd (the built-in scheduler runs inside the API process).
 - Add API key authentication if the service is public.
 - Move from CSV to SQLite or PostgreSQL if write/read concurrency becomes important.
 
@@ -181,20 +187,18 @@ https://www.e2necc.com/home/eggprice
 
 ```mermaid
 flowchart LR
-    subgraph Scheduler
-        CRON[Cron job]
+    subgraph API_Server
+        FASTAPI[api.py<br/>FastAPI]
+        SCHEDULER[Daily Scheduler<br/>asyncio loop]
+        HEALTH[/health endpoint/]
+        DOCS[/docs Swagger UI/]
+        REFRESH[/admin/refresh/]
     end
 
     subgraph Data_Pipeline
         SCRAPER[scraper.py<br/>requests + BeautifulSoup]
         HTML_CACHE[(raw_html/<br/>monthly HTML cache)]
         CSV[(necc_egg_prices_daily.csv)]
-    end
-
-    subgraph API_Server
-        FASTAPI[api.py<br/>FastAPI]
-        HEALTH[/health endpoint/]
-        DOCS[/docs Swagger UI/]
     end
 
     subgraph Clients
@@ -205,15 +209,17 @@ flowchart LR
 
     WEBSITE[(NECC website)]
 
-    CRON -->|Daily refresh| SCRAPER
+    SCHEDULER -->|Daily at 09:00| SCRAPER
+    REFRESH -->|On demand| SCRAPER
     SCRAPER -->|POST month/year form| WEBSITE
     WEBSITE -->|HTML price table| SCRAPER
     SCRAPER -->|Archive source pages| HTML_CACHE
     SCRAPER -->|Parse, clean, fill| CSV
 
-    FASTAPI -->|Load at startup| CSV
+    FASTAPI -->|Load at startup & reload| CSV
     FASTAPI --> HEALTH
     FASTAPI --> DOCS
+    FASTAPI --> REFRESH
 
     DASHBOARD -->|REST queries| FASTAPI
     ANALYST -->|REST queries| FASTAPI
