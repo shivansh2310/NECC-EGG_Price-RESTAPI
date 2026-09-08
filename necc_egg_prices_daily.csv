@@ -245403,7 +245403,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-09-06,2026,9,6,Patna,PREVAILING,600.0,600.0,observed
 2026-09-06,2026,9,6,Ranchi  (CC),PREVAILING,609.0,609.0,observed
 2026-09-06,2026,9,6,Varanasi (CC),PREVAILING,600.0,600.0,observed
-2026-09-07,2026,9,7,Ahmedabad,NECC,NA,570.0,previous_price
+2026-09-07,2026,9,7,Ahmedabad,NECC,575.0,575.0,observed
 2026-09-07,2026,9,7,Ajmer,NECC,550.0,550.0,observed
 2026-09-07,2026,9,7,Asansole,NECC,NA,420.0,previous_price
 2026-09-07,2026,9,7,Barwala,NECC,548.0,548.0,observed
@@ -245425,13 +245425,13 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-09-07,2026,9,7,Namakkal,NECC,525.0,525.0,observed
 2026-09-07,2026,9,7,Pune,NECC,560.0,560.0,observed
 2026-09-07,2026,9,7,Raipur,NECC,540.0,540.0,observed
-2026-09-07,2026,9,7,Surat,NECC,NA,570.0,previous_price
+2026-09-07,2026,9,7,Surat,NECC,570.0,570.0,observed
 2026-09-07,2026,9,7,Vijayawada,NECC,575.0,575.0,observed
 2026-09-07,2026,9,7,Vizag,NECC,555.0,555.0,observed
 2026-09-07,2026,9,7,W.Godavari,NECC,555.0,555.0,observed
 2026-09-07,2026,9,7,Warangal,NECC,537.0,537.0,observed
 2026-09-07,2026,9,7,Allahabad (CC),PREVAILING,576.0,576.0,observed
-2026-09-07,2026,9,7,Bhopal,PREVAILING,NA,530.0,previous_price
+2026-09-07,2026,9,7,Bhopal,PREVAILING,540.0,540.0,observed
 2026-09-07,2026,9,7,Indore (CC),PREVAILING,550.0,550.0,observed
 2026-09-07,2026,9,7,Jabalpur,PREVAILING,NA,535.0,previous_price
 2026-09-07,2026,9,7,Kanpur (CC),PREVAILING,571.0,571.0,observed
@@ -245441,3 +245441,41 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-09-07,2026,9,7,Patna,PREVAILING,603.0,603.0,observed
 2026-09-07,2026,9,7,Ranchi  (CC),PREVAILING,609.0,609.0,observed
 2026-09-07,2026,9,7,Varanasi (CC),PREVAILING,600.0,600.0,observed
+2026-09-08,2026,9,8,Ahmedabad,NECC,580.0,580.0,observed
+2026-09-08,2026,9,8,Ajmer,NECC,NA,550.0,previous_price
+2026-09-08,2026,9,8,Asansole,NECC,NA,420.0,previous_price
+2026-09-08,2026,9,8,Barwala,NECC,550.0,550.0,observed
+2026-09-08,2026,9,8,Bengaluru (CC),NECC,570.0,570.0,observed
+2026-09-08,2026,9,8,Brahmapur (OD),NECC,590.0,590.0,observed
+2026-09-08,2026,9,8,Burdwan (CC),NECC,NA,420.0,previous_price
+2026-09-08,2026,9,8,Chennai (CC),NECC,600.0,600.0,observed
+2026-09-08,2026,9,8,Chittoor,NECC,593.0,593.0,observed
+2026-09-08,2026,9,8,Delhi (CC),NECC,600.0,600.0,observed
+2026-09-08,2026,9,8,E.Godavari,NECC,560.0,560.0,observed
+2026-09-08,2026,9,8,Hospet,NECC,510.0,510.0,observed
+2026-09-08,2026,9,8,Hyderabad,NECC,535.0,535.0,observed
+2026-09-08,2026,9,8,Jabalpur,NECC,545.0,545.0,observed
+2026-09-08,2026,9,8,Kolkata (WB),NECC,640.0,640.0,observed
+2026-09-08,2026,9,8,Ludhiana,NECC,551.0,551.0,observed
+2026-09-08,2026,9,8,Midnapur (KOL),NECC,NA,420.0,previous_price
+2026-09-08,2026,9,8,Mumbai (CC),NECC,580.0,580.0,observed
+2026-09-08,2026,9,8,Mysuru,NECC,580.0,580.0,observed
+2026-09-08,2026,9,8,Namakkal,NECC,530.0,530.0,observed
+2026-09-08,2026,9,8,Pune,NECC,565.0,565.0,observed
+2026-09-08,2026,9,8,Raipur,NECC,545.0,545.0,observed
+2026-09-08,2026,9,8,Surat,NECC,570.0,570.0,observed
+2026-09-08,2026,9,8,Vijayawada,NECC,575.0,575.0,observed
+2026-09-08,2026,9,8,Vizag,NECC,560.0,560.0,observed
+2026-09-08,2026,9,8,W.Godavari,NECC,560.0,560.0,observed
+2026-09-08,2026,9,8,Warangal,NECC,NA,537.0,previous_price
+2026-09-08,2026,9,8,Allahabad (CC),PREVAILING,581.0,581.0,observed
+2026-09-08,2026,9,8,Bhopal,PREVAILING,NA,540.0,previous_price
+2026-09-08,2026,9,8,Indore (CC),PREVAILING,NA,550.0,previous_price
+2026-09-08,2026,9,8,Jabalpur,PREVAILING,NA,535.0,previous_price
+2026-09-08,2026,9,8,Kanpur (CC),PREVAILING,581.0,581.0,observed
+2026-09-08,2026,9,8,Luknow (CC),PREVAILING,593.0,593.0,observed
+2026-09-08,2026,9,8,Muzaffurpur (CC),PREVAILING,608.0,608.0,observed
+2026-09-08,2026,9,8,Nagpur,PREVAILING,545.0,545.0,observed
+2026-09-08,2026,9,8,Patna,PREVAILING,608.0,608.0,observed
+2026-09-08,2026,9,8,Ranchi  (CC),PREVAILING,609.0,609.0,observed
+2026-09-08,2026,9,8,Varanasi (CC),PREVAILING,600.0,600.0,observed
