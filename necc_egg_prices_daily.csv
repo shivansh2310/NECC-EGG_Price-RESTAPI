@@ -246382,7 +246382,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-02,2026,10,2,Warangal,NECC,542.0,542.0,observed
 2026-10-02,2026,10,2,Allahabad (CC),PREVAILING,595.0,595.0,observed
 2026-10-02,2026,10,2,Bhopal,PREVAILING,555.0,555.0,observed
-2026-10-02,2026,10,2,Indore (CC),PREVAILING,558.0,558.0,observed
+2026-10-02,2026,10,2,Indore (CC),PREVAILING,555.0,555.0,observed
 2026-10-02,2026,10,2,Jabalpur,PREVAILING,NA,535.0,previous_price
 2026-10-02,2026,10,2,Kanpur (CC),PREVAILING,581.0,581.0,observed
 2026-10-02,2026,10,2,Luknow (CC),PREVAILING,597.0,597.0,observed
@@ -246771,7 +246771,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-12,2026,10,12,Patna,PREVAILING,585.0,585.0,observed
 2026-10-12,2026,10,12,Ranchi  (CC),PREVAILING,595.0,595.0,observed
 2026-10-12,2026,10,12,Varanasi (CC),PREVAILING,577.0,577.0,observed
-2026-10-13,2026,10,13,Ahmedabad,NECC,NA,570.0,previous_price
+2026-10-13,2026,10,13,Ahmedabad,NECC,570.0,570.0,observed
 2026-10-13,2026,10,13,Ajmer,NECC,530.0,530.0,observed
 2026-10-13,2026,10,13,Asansole,NECC,NA,420.0,previous_price
 2026-10-13,2026,10,13,Barwala,NECC,530.0,530.0,observed
@@ -246793,7 +246793,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-13,2026,10,13,Namakkal,NECC,550.0,550.0,observed
 2026-10-13,2026,10,13,Pune,NECC,600.0,600.0,observed
 2026-10-13,2026,10,13,Raipur,NECC,NA,540.0,previous_price
-2026-10-13,2026,10,13,Surat,NECC,NA,585.0,previous_price
+2026-10-13,2026,10,13,Surat,NECC,585.0,585.0,observed
 2026-10-13,2026,10,13,Vijayawada,NECC,610.0,610.0,observed
 2026-10-13,2026,10,13,Vizag,NECC,580.0,580.0,observed
 2026-10-13,2026,10,13,W.Godavari,NECC,580.0,580.0,observed
@@ -246809,3 +246809,41 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-13,2026,10,13,Patna,PREVAILING,590.0,590.0,observed
 2026-10-13,2026,10,13,Ranchi  (CC),PREVAILING,600.0,600.0,observed
 2026-10-13,2026,10,13,Varanasi (CC),PREVAILING,583.0,583.0,observed
+2026-10-14,2026,10,14,Ahmedabad,NECC,NA,570.0,previous_price
+2026-10-14,2026,10,14,Ajmer,NECC,530.0,530.0,observed
+2026-10-14,2026,10,14,Asansole,NECC,NA,420.0,previous_price
+2026-10-14,2026,10,14,Barwala,NECC,530.0,530.0,observed
+2026-10-14,2026,10,14,Bengaluru (CC),NECC,600.0,600.0,observed
+2026-10-14,2026,10,14,Brahmapur (OD),NECC,615.0,615.0,observed
+2026-10-14,2026,10,14,Burdwan (CC),NECC,NA,420.0,previous_price
+2026-10-14,2026,10,14,Chennai (CC),NECC,615.0,615.0,observed
+2026-10-14,2026,10,14,Chittoor,NECC,608.0,608.0,observed
+2026-10-14,2026,10,14,Delhi (CC),NECC,550.0,550.0,observed
+2026-10-14,2026,10,14,E.Godavari,NECC,580.0,580.0,observed
+2026-10-14,2026,10,14,Hospet,NECC,540.0,540.0,observed
+2026-10-14,2026,10,14,Hyderabad,NECC,545.0,545.0,observed
+2026-10-14,2026,10,14,Jabalpur,NECC,545.0,545.0,observed
+2026-10-14,2026,10,14,Kolkata (WB),NECC,655.0,655.0,observed
+2026-10-14,2026,10,14,Ludhiana,NECC,538.0,538.0,observed
+2026-10-14,2026,10,14,Midnapur (KOL),NECC,NA,420.0,previous_price
+2026-10-14,2026,10,14,Mumbai (CC),NECC,605.0,605.0,observed
+2026-10-14,2026,10,14,Mysuru,NECC,625.0,625.0,observed
+2026-10-14,2026,10,14,Namakkal,NECC,550.0,550.0,observed
+2026-10-14,2026,10,14,Pune,NECC,600.0,600.0,observed
+2026-10-14,2026,10,14,Raipur,NECC,NA,540.0,previous_price
+2026-10-14,2026,10,14,Surat,NECC,NA,585.0,previous_price
+2026-10-14,2026,10,14,Vijayawada,NECC,610.0,610.0,observed
+2026-10-14,2026,10,14,Vizag,NECC,580.0,580.0,observed
+2026-10-14,2026,10,14,W.Godavari,NECC,580.0,580.0,observed
+2026-10-14,2026,10,14,Warangal,NECC,547.0,547.0,observed
+2026-10-14,2026,10,14,Allahabad (CC),PREVAILING,586.0,586.0,observed
+2026-10-14,2026,10,14,Bhopal,PREVAILING,560.0,560.0,observed
+2026-10-14,2026,10,14,Indore (CC),PREVAILING,560.0,560.0,observed
+2026-10-14,2026,10,14,Jabalpur,PREVAILING,NA,535.0,previous_price
+2026-10-14,2026,10,14,Kanpur (CC),PREVAILING,581.0,581.0,observed
+2026-10-14,2026,10,14,Luknow (CC),PREVAILING,583.0,583.0,observed
+2026-10-14,2026,10,14,Muzaffurpur (CC),PREVAILING,590.0,590.0,observed
+2026-10-14,2026,10,14,Nagpur,PREVAILING,560.0,560.0,observed
+2026-10-14,2026,10,14,Patna,PREVAILING,590.0,590.0,observed
+2026-10-14,2026,10,14,Ranchi  (CC),PREVAILING,605.0,605.0,observed
+2026-10-14,2026,10,14,Varanasi (CC),PREVAILING,583.0,583.0,observed
