@@ -246336,7 +246336,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-01,2026,10,1,Mysuru,NECC,600.0,600.0,observed
 2026-10-01,2026,10,1,Namakkal,NECC,540.0,540.0,observed
 2026-10-01,2026,10,1,Pune,NECC,590.0,590.0,observed
-2026-10-01,2026,10,1,Raipur,NECC,NA,540.0,previous_price
+2026-10-01,2026,10,1,Raipur,NECC,540.0,540.0,observed
 2026-10-01,2026,10,1,Surat,NECC,585.0,585.0,observed
 2026-10-01,2026,10,1,Vijayawada,NECC,585.0,585.0,observed
 2026-10-01,2026,10,1,Vizag,NECC,570.0,570.0,observed
@@ -246374,7 +246374,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-02,2026,10,2,Mysuru,NECC,600.0,600.0,observed
 2026-10-02,2026,10,2,Namakkal,NECC,540.0,540.0,observed
 2026-10-02,2026,10,2,Pune,NECC,590.0,590.0,observed
-2026-10-02,2026,10,2,Raipur,NECC,NA,540.0,previous_price
+2026-10-02,2026,10,2,Raipur,NECC,535.0,535.0,observed
 2026-10-02,2026,10,2,Surat,NECC,585.0,585.0,observed
 2026-10-02,2026,10,2,Vijayawada,NECC,585.0,585.0,observed
 2026-10-02,2026,10,2,Vizag,NECC,570.0,570.0,observed
@@ -246412,7 +246412,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-03,2026,10,3,Mysuru,NECC,600.0,600.0,observed
 2026-10-03,2026,10,3,Namakkal,NECC,540.0,540.0,observed
 2026-10-03,2026,10,3,Pune,NECC,580.0,580.0,observed
-2026-10-03,2026,10,3,Raipur,NECC,NA,540.0,previous_price
+2026-10-03,2026,10,3,Raipur,NECC,530.0,530.0,observed
 2026-10-03,2026,10,3,Surat,NECC,585.0,585.0,observed
 2026-10-03,2026,10,3,Vijayawada,NECC,585.0,585.0,observed
 2026-10-03,2026,10,3,Vizag,NECC,570.0,570.0,observed
@@ -246450,7 +246450,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-04,2026,10,4,Mysuru,NECC,600.0,600.0,observed
 2026-10-04,2026,10,4,Namakkal,NECC,540.0,540.0,observed
 2026-10-04,2026,10,4,Pune,NECC,580.0,580.0,observed
-2026-10-04,2026,10,4,Raipur,NECC,NA,540.0,previous_price
+2026-10-04,2026,10,4,Raipur,NECC,530.0,530.0,observed
 2026-10-04,2026,10,4,Surat,NECC,585.0,585.0,observed
 2026-10-04,2026,10,4,Vijayawada,NECC,550.0,550.0,observed
 2026-10-04,2026,10,4,Vizag,NECC,540.0,540.0,observed
@@ -246488,7 +246488,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-05,2026,10,5,Mysuru,NECC,605.0,605.0,observed
 2026-10-05,2026,10,5,Namakkal,NECC,540.0,540.0,observed
 2026-10-05,2026,10,5,Pune,NECC,580.0,580.0,observed
-2026-10-05,2026,10,5,Raipur,NECC,NA,540.0,previous_price
+2026-10-05,2026,10,5,Raipur,NECC,530.0,530.0,observed
 2026-10-05,2026,10,5,Surat,NECC,585.0,585.0,observed
 2026-10-05,2026,10,5,Vijayawada,NECC,550.0,550.0,observed
 2026-10-05,2026,10,5,Vizag,NECC,540.0,540.0,observed
@@ -246526,7 +246526,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-06,2026,10,6,Mysuru,NECC,605.0,605.0,observed
 2026-10-06,2026,10,6,Namakkal,NECC,540.0,540.0,observed
 2026-10-06,2026,10,6,Pune,NECC,585.0,585.0,observed
-2026-10-06,2026,10,6,Raipur,NECC,NA,540.0,previous_price
+2026-10-06,2026,10,6,Raipur,NECC,530.0,530.0,observed
 2026-10-06,2026,10,6,Surat,NECC,585.0,585.0,observed
 2026-10-06,2026,10,6,Vijayawada,NECC,560.0,560.0,observed
 2026-10-06,2026,10,6,Vizag,NECC,545.0,545.0,observed
@@ -246564,7 +246564,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-07,2026,10,7,Mysuru,NECC,605.0,605.0,observed
 2026-10-07,2026,10,7,Namakkal,NECC,540.0,540.0,observed
 2026-10-07,2026,10,7,Pune,NECC,590.0,590.0,observed
-2026-10-07,2026,10,7,Raipur,NECC,NA,540.0,previous_price
+2026-10-07,2026,10,7,Raipur,NECC,535.0,535.0,observed
 2026-10-07,2026,10,7,Surat,NECC,585.0,585.0,observed
 2026-10-07,2026,10,7,Vijayawada,NECC,560.0,560.0,observed
 2026-10-07,2026,10,7,Vizag,NECC,545.0,545.0,observed
@@ -246602,7 +246602,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-08,2026,10,8,Mysuru,NECC,605.0,605.0,observed
 2026-10-08,2026,10,8,Namakkal,NECC,540.0,540.0,observed
 2026-10-08,2026,10,8,Pune,NECC,595.0,595.0,observed
-2026-10-08,2026,10,8,Raipur,NECC,NA,540.0,previous_price
+2026-10-08,2026,10,8,Raipur,NECC,540.0,540.0,observed
 2026-10-08,2026,10,8,Surat,NECC,585.0,585.0,observed
 2026-10-08,2026,10,8,Vijayawada,NECC,570.0,570.0,observed
 2026-10-08,2026,10,8,Vizag,NECC,550.0,550.0,observed
@@ -246640,7 +246640,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-09,2026,10,9,Mysuru,NECC,610.0,610.0,observed
 2026-10-09,2026,10,9,Namakkal,NECC,540.0,540.0,observed
 2026-10-09,2026,10,9,Pune,NECC,595.0,595.0,observed
-2026-10-09,2026,10,9,Raipur,NECC,NA,540.0,previous_price
+2026-10-09,2026,10,9,Raipur,NECC,540.0,540.0,observed
 2026-10-09,2026,10,9,Surat,NECC,585.0,585.0,observed
 2026-10-09,2026,10,9,Vijayawada,NECC,575.0,575.0,observed
 2026-10-09,2026,10,9,Vizag,NECC,555.0,555.0,observed
@@ -246678,7 +246678,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-10,2026,10,10,Mysuru,NECC,615.0,615.0,observed
 2026-10-10,2026,10,10,Namakkal,NECC,540.0,540.0,observed
 2026-10-10,2026,10,10,Pune,NECC,595.0,595.0,observed
-2026-10-10,2026,10,10,Raipur,NECC,NA,540.0,previous_price
+2026-10-10,2026,10,10,Raipur,NECC,540.0,540.0,observed
 2026-10-10,2026,10,10,Surat,NECC,585.0,585.0,observed
 2026-10-10,2026,10,10,Vijayawada,NECC,580.0,580.0,observed
 2026-10-10,2026,10,10,Vizag,NECC,560.0,560.0,observed
@@ -246716,7 +246716,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-11,2026,10,11,Mysuru,NECC,615.0,615.0,observed
 2026-10-11,2026,10,11,Namakkal,NECC,540.0,540.0,observed
 2026-10-11,2026,10,11,Pune,NECC,595.0,595.0,observed
-2026-10-11,2026,10,11,Raipur,NECC,NA,540.0,previous_price
+2026-10-11,2026,10,11,Raipur,NECC,540.0,540.0,observed
 2026-10-11,2026,10,11,Surat,NECC,585.0,585.0,observed
 2026-10-11,2026,10,11,Vijayawada,NECC,585.0,585.0,observed
 2026-10-11,2026,10,11,Vizag,NECC,565.0,565.0,observed
@@ -246754,7 +246754,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-12,2026,10,12,Mysuru,NECC,615.0,615.0,observed
 2026-10-12,2026,10,12,Namakkal,NECC,540.0,540.0,observed
 2026-10-12,2026,10,12,Pune,NECC,595.0,595.0,observed
-2026-10-12,2026,10,12,Raipur,NECC,NA,540.0,previous_price
+2026-10-12,2026,10,12,Raipur,NECC,540.0,540.0,observed
 2026-10-12,2026,10,12,Surat,NECC,585.0,585.0,observed
 2026-10-12,2026,10,12,Vijayawada,NECC,600.0,600.0,observed
 2026-10-12,2026,10,12,Vizag,NECC,575.0,575.0,observed
@@ -246792,7 +246792,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-13,2026,10,13,Mysuru,NECC,625.0,625.0,observed
 2026-10-13,2026,10,13,Namakkal,NECC,550.0,550.0,observed
 2026-10-13,2026,10,13,Pune,NECC,600.0,600.0,observed
-2026-10-13,2026,10,13,Raipur,NECC,NA,540.0,previous_price
+2026-10-13,2026,10,13,Raipur,NECC,545.0,545.0,observed
 2026-10-13,2026,10,13,Surat,NECC,585.0,585.0,observed
 2026-10-13,2026,10,13,Vijayawada,NECC,610.0,610.0,observed
 2026-10-13,2026,10,13,Vizag,NECC,580.0,580.0,observed
@@ -246830,7 +246830,7 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-14,2026,10,14,Mysuru,NECC,625.0,625.0,observed
 2026-10-14,2026,10,14,Namakkal,NECC,550.0,550.0,observed
 2026-10-14,2026,10,14,Pune,NECC,600.0,600.0,observed
-2026-10-14,2026,10,14,Raipur,NECC,NA,540.0,previous_price
+2026-10-14,2026,10,14,Raipur,NECC,550.0,550.0,observed
 2026-10-14,2026,10,14,Surat,NECC,NA,585.0,previous_price
 2026-10-14,2026,10,14,Vijayawada,NECC,610.0,610.0,observed
 2026-10-14,2026,10,14,Vizag,NECC,580.0,580.0,observed
@@ -246847,3 +246847,41 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-10-14,2026,10,14,Patna,PREVAILING,590.0,590.0,observed
 2026-10-14,2026,10,14,Ranchi  (CC),PREVAILING,605.0,605.0,observed
 2026-10-14,2026,10,14,Varanasi (CC),PREVAILING,583.0,583.0,observed
+2026-10-15,2026,10,15,Ahmedabad,NECC,NA,570.0,previous_price
+2026-10-15,2026,10,15,Ajmer,NECC,533.0,533.0,observed
+2026-10-15,2026,10,15,Asansole,NECC,NA,420.0,previous_price
+2026-10-15,2026,10,15,Barwala,NECC,532.0,532.0,observed
+2026-10-15,2026,10,15,Bengaluru (CC),NECC,NA,600.0,previous_price
+2026-10-15,2026,10,15,Brahmapur (OD),NECC,595.0,595.0,observed
+2026-10-15,2026,10,15,Burdwan (CC),NECC,NA,420.0,previous_price
+2026-10-15,2026,10,15,Chennai (CC),NECC,NA,615.0,previous_price
+2026-10-15,2026,10,15,Chittoor,NECC,608.0,608.0,observed
+2026-10-15,2026,10,15,Delhi (CC),NECC,560.0,560.0,observed
+2026-10-15,2026,10,15,E.Godavari,NECC,580.0,580.0,observed
+2026-10-15,2026,10,15,Hospet,NECC,NA,540.0,previous_price
+2026-10-15,2026,10,15,Hyderabad,NECC,NA,545.0,previous_price
+2026-10-15,2026,10,15,Jabalpur,NECC,545.0,545.0,observed
+2026-10-15,2026,10,15,Kolkata (WB),NECC,635.0,635.0,observed
+2026-10-15,2026,10,15,Ludhiana,NECC,538.0,538.0,observed
+2026-10-15,2026,10,15,Midnapur (KOL),NECC,NA,420.0,previous_price
+2026-10-15,2026,10,15,Mumbai (CC),NECC,610.0,610.0,observed
+2026-10-15,2026,10,15,Mysuru,NECC,625.0,625.0,observed
+2026-10-15,2026,10,15,Namakkal,NECC,550.0,550.0,observed
+2026-10-15,2026,10,15,Pune,NECC,600.0,600.0,observed
+2026-10-15,2026,10,15,Raipur,NECC,550.0,550.0,observed
+2026-10-15,2026,10,15,Surat,NECC,NA,585.0,previous_price
+2026-10-15,2026,10,15,Vijayawada,NECC,610.0,610.0,observed
+2026-10-15,2026,10,15,Vizag,NECC,580.0,580.0,observed
+2026-10-15,2026,10,15,W.Godavari,NECC,580.0,580.0,observed
+2026-10-15,2026,10,15,Warangal,NECC,547.0,547.0,observed
+2026-10-15,2026,10,15,Allahabad (CC),PREVAILING,586.0,586.0,observed
+2026-10-15,2026,10,15,Bhopal,PREVAILING,560.0,560.0,observed
+2026-10-15,2026,10,15,Indore (CC),PREVAILING,560.0,560.0,observed
+2026-10-15,2026,10,15,Jabalpur,PREVAILING,NA,535.0,previous_price
+2026-10-15,2026,10,15,Kanpur (CC),PREVAILING,581.0,581.0,observed
+2026-10-15,2026,10,15,Luknow (CC),PREVAILING,583.0,583.0,observed
+2026-10-15,2026,10,15,Muzaffurpur (CC),PREVAILING,590.0,590.0,observed
+2026-10-15,2026,10,15,Nagpur,PREVAILING,565.0,565.0,observed
+2026-10-15,2026,10,15,Patna,PREVAILING,590.0,590.0,observed
+2026-10-15,2026,10,15,Ranchi  (CC),PREVAILING,605.0,605.0,observed
+2026-10-15,2026,10,15,Varanasi (CC),PREVAILING,583.0,583.0,observed
