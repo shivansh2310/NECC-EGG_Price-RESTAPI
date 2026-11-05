@@ -247645,3 +247645,41 @@ date,year,month,day,market,category,price,price_filled,fill_method
 2026-11-04,2026,11,4,Patna,PREVAILING,685.0,685.0,observed
 2026-11-04,2026,11,4,Ranchi  (CC),PREVAILING,681.0,681.0,observed
 2026-11-04,2026,11,4,Varanasi (CC),PREVAILING,671.0,671.0,observed
+2026-11-05,2026,11,5,Ahmedabad,NECC,675.0,675.0,observed
+2026-11-05,2026,11,5,Ajmer,NECC,640.0,640.0,observed
+2026-11-05,2026,11,5,Asansole,NECC,NA,420.0,previous_price
+2026-11-05,2026,11,5,Barwala,NECC,635.0,635.0,observed
+2026-11-05,2026,11,5,Bengaluru (CC),NECC,700.0,700.0,observed
+2026-11-05,2026,11,5,Brahmapur (OD),NECC,675.0,675.0,observed
+2026-11-05,2026,11,5,Burdwan (CC),NECC,NA,420.0,previous_price
+2026-11-05,2026,11,5,Chennai (CC),NECC,720.0,720.0,observed
+2026-11-05,2026,11,5,Chittoor,NECC,713.0,713.0,observed
+2026-11-05,2026,11,5,Delhi (CC),NECC,660.0,660.0,observed
+2026-11-05,2026,11,5,E.Godavari,NECC,655.0,655.0,observed
+2026-11-05,2026,11,5,Hospet,NECC,640.0,640.0,observed
+2026-11-05,2026,11,5,Hyderabad,NECC,645.0,645.0,observed
+2026-11-05,2026,11,5,Jabalpur,NECC,660.0,660.0,observed
+2026-11-05,2026,11,5,Kolkata (WB),NECC,725.0,725.0,observed
+2026-11-05,2026,11,5,Ludhiana,NECC,633.0,633.0,observed
+2026-11-05,2026,11,5,Midnapur (KOL),NECC,NA,420.0,previous_price
+2026-11-05,2026,11,5,Mumbai (CC),NECC,705.0,705.0,observed
+2026-11-05,2026,11,5,Mysuru,NECC,710.0,710.0,observed
+2026-11-05,2026,11,5,Namakkal,NECC,650.0,650.0,observed
+2026-11-05,2026,11,5,Pune,NECC,701.0,701.0,observed
+2026-11-05,2026,11,5,Raipur,NECC,650.0,650.0,observed
+2026-11-05,2026,11,5,Surat,NECC,700.0,700.0,observed
+2026-11-05,2026,11,5,Vijayawada,NECC,705.0,705.0,observed
+2026-11-05,2026,11,5,Vizag,NECC,660.0,660.0,observed
+2026-11-05,2026,11,5,W.Godavari,NECC,655.0,655.0,observed
+2026-11-05,2026,11,5,Warangal,NECC,647.0,647.0,observed
+2026-11-05,2026,11,5,Allahabad (CC),PREVAILING,686.0,686.0,observed
+2026-11-05,2026,11,5,Bhopal,PREVAILING,680.0,680.0,observed
+2026-11-05,2026,11,5,Indore (CC),PREVAILING,NA,660.0,previous_price
+2026-11-05,2026,11,5,Jabalpur,PREVAILING,NA,535.0,previous_price
+2026-11-05,2026,11,5,Kanpur (CC),PREVAILING,686.0,686.0,observed
+2026-11-05,2026,11,5,Luknow (CC),PREVAILING,683.0,683.0,observed
+2026-11-05,2026,11,5,Muzaffurpur (CC),PREVAILING,690.0,690.0,observed
+2026-11-05,2026,11,5,Nagpur,PREVAILING,675.0,675.0,observed
+2026-11-05,2026,11,5,Patna,PREVAILING,690.0,690.0,observed
+2026-11-05,2026,11,5,Ranchi  (CC),PREVAILING,NA,681.0,previous_price
+2026-11-05,2026,11,5,Varanasi (CC),PREVAILING,686.0,686.0,observed
